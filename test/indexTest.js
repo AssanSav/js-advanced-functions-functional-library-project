@@ -92,8 +92,8 @@ describe('index.js', function () {
 
     it('returns the value if found', function () {
       expect(fi.find(intArr, findCBGenerator(4))).to.equal(4)
-      expect(fi.find(strArr, findCBGenerator("waychillgoldeneye"))).to.equal("waychillgoldeneye")
-      expect(fi.find(objArr, findCBGenerator(objB))).to.equal(objB)
+     expect(fi.find(strArr, findCBGenerator("waychillgoldeneye"))).to.equal("waychillgoldeneye")
+     expect(fi.find(objArr, findCBGenerator(objB))).to.equal(objB)
     })
 
     it('does not traverse the whole array if the value is found early', function () {
